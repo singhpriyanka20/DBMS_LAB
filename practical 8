@@ -1,0 +1,13 @@
+create function itfact(a number) return mnumber is
+fact number=1;
+b number;
+begin
+b=a;
+while b>0
+loop
+fact=fact*b;
+b=b-1;
+end loop;
+return(fact);
+end;
+/
