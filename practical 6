@@ -8,11 +8,11 @@ CREATE TABLE Employee (
 
 INSERT INTO Employee (empid, empname, salary, comp_name, emp_dept) 
 VALUES 
-    (105, 'Alice Johnson', 48000, 'Jones', 10),
-    (106, 'Michael Lee', 62000, 'ABC Corp', 20),
-    (107, 'Sophia Wilson', 53000, 'XYZ Ltd', 30),
-    (108, 'David Miller', 75000, 'Jones', 40),
-    (109, 'Olivia White', 69000, 'ABC Corp', 10);
+    (103, 'Ali', 48050, 'Jes', 20),
+    (104, 'Michael', 6000, 'ABC Corp', 30),
+    (105, 'Sam', 50000, 'XYZ Ltd', 50),
+    (106, 'xyz', 73000, 'les ltd', 42),
+    (107, 'Osho', 49000, 'ABC Corp', 15);
 
 SELECT empname, empid 
 FROM Employee 
