@@ -12,14 +12,14 @@ CREATE TABLE Orders (
 );
 
 INSERT INTO Customer VALUES 
-    (1, 'John Doe', 'New York'),
-    (2, 'Alice Smith', 'Los Angeles'),
-    (3, 'Bob Johnson', 'Chicago');
+    (1, 'jack', 'New York'),
+    (2, 'Alice', 'LA'),
+    (3, 'Tim', 'Chicago');
 
 INSERT INTO Orders VALUES 
-    (101, 'Laptop', 1),
-    (102, 'Mobile', 2),
-    (103, 'Tablet', NULL);
+    (100, 'Laptop', 1),
+    (101, 'Mobile', 2),
+    (102, 'Tablet', NULL);
 
 --INNER JOIN (Customers with Orders)
 SELECT C.C_id, C.C_Name, C.Address, O.O_ID, O.O_Name
