@@ -16,12 +16,12 @@ VALUES
 
 SELECT empname, empid 
 FROM Employee 
-WHERE salary > (SELECT salary FROM Employee WHERE comp_name = 'Jones');
+WHERE salary > (SELECT salary FROM Employee WHERE comp_name = 'Jes');
 
 SELECT empname, empid 
 FROM Employee 
-WHERE salary < ANY (SELECT salary FROM Employee WHERE emp_dept = 10);
+WHERE salary < ANY (SELECT salary FROM Employee WHERE emp_dept = 50);
 
 SELECT empname, empid 
 FROM Employee 
-WHERE salary < (SELECT AVG(salary) FROM Employee WHERE emp_dept = 10);
+WHERE salary < (SELECT AVG(salary) FROM Employee WHERE emp_dept = 15);
